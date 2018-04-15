@@ -1,0 +1,16 @@
+{
+	"name": "homebridge-servo-blinds",
+	"version": "1.0.0",
+	"description": "A Homebridge Plugin for Blinds running from a PWM servo",
+	"main": "index.js",
+	"scripts": {
+		"test": "test",
+		"start": "index.js"
+	},
+	"keywords": ["homebridge-plugin", "homebridge", "servo", "blinds"],
+	"author": "Evan Hennessy",
+	"license": "MIT",
+	"dependencies": {
+		"rpio": "^0.9.21"
+	}
+}
